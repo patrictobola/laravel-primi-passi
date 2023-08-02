@@ -17,4 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $greet = 'Hello World!';
     return view('home', compact('greet'));
-});
+})->name('home');
+
+Route::get('/pagina_random', function () {
+    $greet = 'Pagina Random';
+    return view('pagina_random', compact('greet'));
+})->name('random');
