@@ -23,3 +23,9 @@ Route::get('/pagina_random', function () {
     $greet = 'Pagina Random';
     return view('pagina_random', compact('greet'));
 })->name('random');
+
+
+Route::get('/pagina_pricing', function () {
+    $greet = 'Pagina Pricing';
+    return view('pagina_pricing', compact('greet'));
+})->name('pricing');

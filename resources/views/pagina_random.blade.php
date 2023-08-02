@@ -22,7 +22,7 @@
                         <a class="nav-link" href="{{ route('random')}}">Random <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="{{ route('pricing')}}">Pricing</a>
                     </li>
                 </ul>
             </div>
